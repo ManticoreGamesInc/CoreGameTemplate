@@ -1,6 +1,6 @@
 {
 	"recommendations": [
-		"trixnz.vscode-lua",
+		"liwangqian.luacoderassist",
 		"EditorConfig.EditorConfig",
         "manticoregames.vscode-core"
 	]
