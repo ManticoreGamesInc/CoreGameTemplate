@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"trixnz.vscode-lua",
+		"EditorConfig.EditorConfig",
+        "manticoregames.vscode-core"
+	]
+}
