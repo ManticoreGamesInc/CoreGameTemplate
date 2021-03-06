@@ -62,6 +62,8 @@ stds.core = {
         "AnimatedMesh.PlayAnimation",
         "AnimatedMesh.StopAnimations",
         "AnimatedMesh.GetAnimationDuration",
+        "AnimatedMesh.SetMeshForSlot",
+        "AnimatedMesh.GetMeshForSlot",
         "AnimatedMesh.IsA",
         "AreaLight",
         "AreaLight.sourceWidth",
@@ -131,6 +133,26 @@ stds.core = {
         "Color.ToStandardHex",
         "Color.ToLinearHex",
         "Color.IsA",
+        "CoreGameCollectionEntry",
+        "CoreGameCollectionEntry.id",
+        "CoreGameCollectionEntry.parentGameId",
+        "CoreGameCollectionEntry.name",
+        "CoreGameCollectionEntry.ownerId",
+        "CoreGameCollectionEntry.ownerName",
+        "CoreGameCollectionEntry.type",
+        "CoreGameCollectionEntry.IsA",
+        "CoreGameInfo",
+        "CoreGameInfo.id",
+        "CoreGameInfo.parentGameId",
+        "CoreGameInfo.name",
+        "CoreGameInfo.description",
+        "CoreGameInfo.ownerId",
+        "CoreGameInfo.ownerName",
+        "CoreGameInfo.screenshotCount",
+        "CoreGameInfo.hasWorldCapture",
+        "CoreGameInfo.type",
+        "CoreGameInfo.GetTags",
+        "CoreGameInfo.IsA",
         "CoreMesh",
         "CoreMesh.meshAssetId",
         "CoreMesh.team",
@@ -733,8 +755,10 @@ stds.core = {
         "WorldText.SetColor",
         "WorldText.IsA",
         -- Namespaces
+        "Chat",
         "CoreDebug",
         "CoreMath",
+        "CorePlatform",
         "CoreString",
         "Environment",
         "Events",
@@ -765,6 +789,11 @@ stds.core = {
         "Collision.INHERIT",
         "Collision.FORCE_ON",
         "Collision.FORCE_OFF",
+        "CoreModalType",
+        "CoreModalType.PAUSE_MENU",
+        "CoreModalType.CHARACTER_PICKER",
+        "CoreModalType.MOUNT_PICKER",
+        "CoreModalType.EMOTE_PICKER",
         "DamageReason",
         "DamageReason.UNKNOWN",
         "DamageReason.COMBAT",
@@ -868,6 +897,7 @@ ignore = {
     "542", -- An empty if branch
     "6." , -- Whitespace
     "131/.*Tick" -- Allow unused `Tick`
+    "131" -- Unused implicitly defined global variable. Luacheck does not understand how our require works.
 }
 
 globals = {
