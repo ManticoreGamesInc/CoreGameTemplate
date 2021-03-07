@@ -33,7 +33,7 @@ Go through this checklist after creating your repository. It should only take a 
 ### GitHub Metadata
 
 - [ ] Have you added a short description to the repository?
-- [ ] Have you added topics to the GitHub repository: `core`, `core games`, `lua`, `game`, and so on?
+- [ ] Have you added topics to the GitHub repository: `core`, `coregames`, `lua`, `game`, and so on?
 
 ### README
 
