@@ -1,0 +1,2 @@
+# Core saves .pbt files as LF by default
+*.pbt text eol=lf
