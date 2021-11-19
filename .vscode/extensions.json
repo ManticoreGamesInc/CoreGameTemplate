@@ -1,7 +1,6 @@
 {
 	"recommendations": [
-		"liwangqian.luacoderassist",
 		"EditorConfig.EditorConfig",
-        "manticoregames.vscode-core"
+        	"manticoregames.vscode-core"
 	]
 }
