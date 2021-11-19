@@ -11,7 +11,7 @@ This template provides you a quick way to get started with a Core game project o
 - `.editorconfig` for setting up a consistent code style across the project.
 - Visual Studio Code extensions:
   - If you are using VS Code, opening this project in it will cause a popup to appear that asks you if you want to install the recommended extensions for it.
-  - We suggest using at least the following three extensions: [LuaCoderAssist](https://marketplace.visualstudio.com/items?itemName=liwangqian.luacoderassist), [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Core Lua API Autocomplete](https://marketplace.visualstudio.com/items?itemName=manticoregames.vscode-core).
+  - We suggest using at least the following two extensions: [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Core Lua API](https://marketplace.visualstudio.com/items?itemName=manticoregames.vscode-core).
 
 ## Checklist
 
@@ -28,7 +28,7 @@ Go through this checklist after creating your repository. It should only take a 
 
 ### License
 
-- [ ] Delete or edit `LICENSE` depending on if you want to use the MIT license or a different one. Make sure to replace the placeholders in it as well.
+- [ ] Delete or edit `LICENSE` depending on if you want to use the Apache 2 license or a different one. Make sure to replace the placeholders in it as well.
 
 ### GitHub Metadata
 
