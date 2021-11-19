@@ -21,4 +21,4 @@ If you are interested in fixing issues and contributing directly to the code bas
 
 ## License
 
-Licensed under the [MIT](LICENSE) license.
+Licensed under the [Apache License 2.0](LICENSE) license.
